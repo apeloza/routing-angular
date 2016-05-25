@@ -1,0 +1,15 @@
+<div class="charactercontainer">
+  <h2 class = "name">{{name}}</h2>
+  <div class="biocontainer col-md-6">
+    <h3 ng-click="clickBio()">Bio</h3>
+  <p ng-show="clickedBio" class = "bio">{{bio}}</p>
+</div>
+  <ul class="stats col-md-2">
+    <li>Role: {{stats.role}}</li>
+    <li>Health: {{stats.health}}</li>
+    <li>Shield: {{stats.shield}}</li>
+  </ul>
+  <div class="imagecontainer col-md-4">
+    <img class="charimage" src = {{image}} />
+  </div>
+</div>
